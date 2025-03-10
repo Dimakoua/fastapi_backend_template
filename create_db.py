@@ -8,10 +8,9 @@ engine = create_engine(get_settings().DATABASE_URL,
 
 # Function to create the database if it does not exist
 
-# Connect to PostgreSQL server and create the database
-
 
 def create_database():
+    # Connect to PostgreSQL server and create the database
     try:
         with engine.connect() as connection:
             if os.getenv("ENV") == "test":
