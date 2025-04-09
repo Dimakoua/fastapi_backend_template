@@ -12,7 +12,6 @@ Welcome to the FastAPI Backend Template! This project serves as a boilerplate fo
 
 - **FastAPI**: Leverages FastAPI for rapid development and high performance. 
 - **Asynchronous PostgreSQL**: Utilizes asynchronous SQLAlchemy with AsyncPG for non-blocking database operations.
-- **Dockerized**: Includes Docker configurations for easy setup and deployment.
 - **Modular Structure**: Organized codebase following best practices for scalability and maintainability.
 
 ## Getting Started
@@ -70,19 +69,9 @@ Welcome to the FastAPI Backend Template! This project serves as a boilerplate fo
 
     The API will be accessible at `http://127.0.0.1:8000`.
 
-### Using Docker
+2. **Access the Docs**:
 
-Alternatively, you can use Docker for containerized deployment:
-
-1. **Build and start the containers**:
-
-    ```bash
-    docker-compose up --build
-    ```
-
-2. **Access the API**:
-
-    The API will be accessible at `http://127.0.0.1:8000`.
+    The API will be accessible at `http://127.0.0.1:8000/docs`.
 
 ## Project Structure
 
